@@ -1,0 +1,96 @@
+body {
+    background-color: #1d1d1d;
+    font-family: 'Hina Mincho', serif;
+    font-size: larger;
+}
+
+#container {
+    background-color: #F0973E;
+    width: 950px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #000;
+    
+}
+
+header {
+    padding: 25px 0;
+    background-color: #E46A5D;
+    border-radius: 25px 25px 0 0;
+}
+
+header img { 
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    font-size: 3.2em;
+    text-align: center;
+    color: #F0973E;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav {
+    background-color: #F0973E;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #E46A5D;
+    height: 45px;
+    width: 175px;
+    font-size: 1.5em;
+    line-height: 45px;
+    color: #1d1d1d;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: #1d1d1d;
+    color: #3194B0;
+}
+
+main {
+background-color: #E46A5D;
+padding: 25px;
+border-radius: 15px 15px 15px 15px;
+margin: 0 30px 30px 30px
+}
+
+main h2 {
+    text-align: center;
+}
+
+main img {
+    display: block;
+    width: 64%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #F0973E;
+    padding: 45--px 0;
+    color: #3194B0;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.active {
+    background-color: #1d1d1d;
+    color: #3194B0;
+}
+
+.pro_head {
+    text-align: center;
+    color: #1d1d1d;
+
+}
