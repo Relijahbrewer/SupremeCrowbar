@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+background-color: #0F0F0F;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+#container {
+    background-color: #0f0f0ff1;
+    margin: 10px;
+}
+
+header {
+    background-image: url("../images/openhands.jpg");
+    background-size: cover;
+    padding: 65px 0;
+}
+
+header h1 {
+    color: #D4D4C7;
+    text-shadow: 2px 2px 2px #0f0f0ff1;
+    text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #0f0f0ff1;
+    color: #D4D4C7;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #8C031C;
+    text-shadow: 2px 2px 2px #0F0F0F;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #D4D4C7;
+    padding: 20px;
+    margin: 10px;
+    border: 4px inset #0D0509;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #0D0509;
+    text-shadow: .5px .5px .5px #BF2431;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: #0f0f0ff1;
+    color: #D4D4C7;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+background-color: #8C031C;
+    text-shadow: 2px 2px 2px #0F0F0F;
+}
+
+footer {
+    text-align: center;
+    color: #0f0f0ff1;
+}
+
+.single_col {
+    width: 83%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    width: 50%;
+    margin: 15px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles */
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section {
+        width: 32%
+    }
+
+    aside {
+        width: 68%;
+    }
+
+    .col img {
+        width: 65%;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+}
+
+
+/* Desktop Styles */ 
+@media(min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 6px inset #8C031C;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 10px 10px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 85%;
+    }
+
+    .col img {
+        width: 85%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
