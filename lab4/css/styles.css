@@ -104,13 +104,13 @@ footer {
 audio, video {
     display: block;
     margin: 20px auto;
-    width: 75%;
+    width: 50%;
 }
 
 iframe {
     display: block;
-    margin: 20px auto;
-    width: 75%;
+    margin: 30px auto;
+    width: 50%;
 }
 
 .gallery_img {
@@ -208,7 +208,7 @@ table {
     }
 
     table img {
-        width: 100;
+        width: 100%;
     }
 
     .gallery {
