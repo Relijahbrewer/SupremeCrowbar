@@ -6,4 +6,3 @@
     <li><a href="lab3/index.html" target="_blank">Lab Three</a></li>
     <li><a href="lab4/index.html" target="_blank">Lab Four</a></li>
 </ul>
-</ul>
